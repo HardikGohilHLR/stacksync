@@ -8,7 +8,7 @@
 
 ## 🌎 Live Demo
 
-🔗 **[Try StackSync Live](https://stacksync.dev)**
+🔗 **[Try StackSync Live](https://stacksync-app.netlify.app)**
 
 ---
 
