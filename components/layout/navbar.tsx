@@ -19,7 +19,7 @@ export const Navbar = () => {
             <StackSyncIcon />
           </Link>
 
-          <div className="flex items-center gap-6 md:gap-8">
+          <div className="flex items-center gap-4 md:gap-8">
             <Link
               href="/compare"
               className={clsx(
@@ -30,7 +30,7 @@ export const Navbar = () => {
               Compare
             </Link>
 
-            <div className="flex items-center gap-3 md:gap-4">
+            <div className="flex items-center gap-4 md:gap-6">
               <Link href="https://github.com/HardikGohilHLR/stacksync" target="_blank">
                 <GithubIcon className="text-secondary hover:text-primary size-4 md:size-5" />
               </Link>

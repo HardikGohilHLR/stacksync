@@ -19,7 +19,7 @@ export const ThemeToggle = React.forwardRef<
       variant="ghost"
       type="button"
       size="icon"
-      className={cn('hover:text-primary h-10 w-10 cursor-pointer', className)}
+      className={cn('hover:text-primary w-auto cursor-pointer', className)}
       aria-label="Toggle theme"
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       {...props}
