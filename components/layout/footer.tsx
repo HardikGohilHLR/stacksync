@@ -87,6 +87,16 @@ export const Footer = () => {
                 <ul className="flex flex-col gap-2">
                   <li>
                     <Link
+                      href="https://startupslab.site"
+                      target="_blank"
+                      rel="dofollow"
+                      className="hover:text-primary text-sm font-medium transition duration-150"
+                    >
+                      Startups Lab
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href="https://letter-lens.netlify.app"
                       target="_blank"
                       className="hover:text-primary text-sm font-medium transition duration-150"
