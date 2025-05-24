@@ -37,7 +37,9 @@ export const Home = () => {
           <div className="flex flex-col items-center justify-center gap-8">
             <div className="inline-flex items-center gap-2 rounded-full border px-4 py-1">
               <Star className="h-4 w-4" />
-              <span className="text-secondary text-sm font-medium max-sm:text-[12px]">Open Source Package Compatibility Tool</span>
+              <span className="text-secondary text-sm font-medium max-sm:text-[12px]">
+                Open Source Package Compatibility Tool
+              </span>
             </div>
 
             <div className="mx-auto flex max-w-3xl flex-col items-center gap-10 text-center">
@@ -52,7 +54,7 @@ export const Home = () => {
                 </p>
               </div>
 
-              <div className="flex w-full items-center justify-center flex-wrap gap-4">
+              <div className="flex w-full flex-wrap items-center justify-center gap-4">
                 <Link href="/compare" className={buttonVariants({ variant: 'default', size: 'lg' })}>
                   Check Compatibility
                 </Link>
